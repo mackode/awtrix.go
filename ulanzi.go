@@ -15,7 +15,7 @@ func main() {
     Text: fmt.Sprintf("%d/%d", f, v),
     Icon: 974,
     Duration: 4,
-    Rainbow: true
+    Rainbow: true,
   }
   err = postToAPI("youtube", p)
   if err != nil {
@@ -32,7 +32,7 @@ func main() {
   p = apiPayload{
     Text: timerVal,
     Duration: 4,
-    Rainbow: true
+    Rainbow: true,
   }
   err = postToAPI("countdown", p)
   if err != nil {
@@ -43,7 +43,7 @@ func main() {
     Text: mon(),
     Icon: 23003,
     Duration: 4,
-    Rainbow: true
+    Rainbow: true,
   }
   err = postToAPI("dago", p)
   if err != nil {

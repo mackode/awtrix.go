@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"go/scanner"
 	"os"
 	"os/user"
 	"path"
